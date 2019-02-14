@@ -1,0 +1,31 @@
+body{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	padding-top: 25vh;
+}
+
+#clock{
+	background-color: none;
+	height: 50vh;
+	width: 120vh;
+	box-sizing: border-box;
+	border: 10px white solid;
+	font-size: 20vh;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding-top: 10vh;
+	-moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+}
+
+/* Vi la animación del parpadeo en un código de internet viendo ideas para el reloj y he utilizado los webkits que tenía
+http://www.alessioatzeni.com/blog/css3-digital-clock-with-jquery/ */
+@-webkit-keyframes mymove {
+    0% {
+    opacity: 1.0;
+    text-shadow: 0 0 50px #ff0000;
+    box-shadow: 0 0 50px #ff0000;
+	}
+}
