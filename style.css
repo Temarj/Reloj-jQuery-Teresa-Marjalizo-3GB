@@ -29,3 +29,22 @@ http://www.alessioatzeni.com/blog/css3-digital-clock-with-jquery/ */
     box-shadow: 0 0 50px #ff0000;
 	}
 }
+
+@media all and (max-width: 960px){
+ #clock{
+ 	width: 80vh;
+ 	font-size: 15vh;
+ 	padding-top: 13vh;
+ }
+}
+@media all and (max-width: 480px){
+body{
+	padding-top: 35vh;
+}
+#clock{
+	width: 50vh;
+	height: 30vh;
+ 	font-size: 10vh;
+ 	padding-top: 7vh;
+	}
+}
